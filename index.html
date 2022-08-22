@@ -11,19 +11,24 @@
 </head>
 
 <body>
-    <div style="height: calc(100vh-50px); display: flex; ">
+    <div style=" 
+            height: 100vh; 
+            display: flex; 
+
+            
+            ">
         <div class="container-l" style="
-                max-width: 50%; 
-                width: 50%;
+                width: 100%;
                 background-image: url(./background\ image.png);
-                background-size : cover;
+                background-size :cover;
                 background-position: center;
                 display:flex;
-                align-items: center;
                 justify-content:center;
+                align-items:center;
+              
                 
                 ">
-            <svg viewBox="0 0 24 24" style="width: 300px" aria-hidden="true"
+            <svg viewBox="0 0 24 24" style=" max-height: 380px; height: 50%;" aria-hidden="true"
                 class="r-jwli3a r-4qtqp9 r-yyyyoo r-rxcuwo r-1777fci r-m327ed r-dnmrzs r-494qqr r-bnwqim r-1plcrui r-lrvibr">
 
 
@@ -35,18 +40,20 @@
             </svg>
 
         </div>
-        <div class="container-r" style="
-                    width: 50%;
-                    max-width: 50%;
+        <div class="container-r" style="                    
+                    min-width: 45vw;    
+                    padding: 16px;   
                     background-color:black;
-                    display: flex;
-                    align-items: center;
                     justify-content:center;
                     color:rgb(231, 233, 234);  
-                    
+                    padding-top: 150px;
                 ">
-            <div style="padding: 30px;">
-                <svg viewBox="0 0 24 24" style="width: 40px" aria-hidden="true"
+            <div style="
+                    padding: 20px;
+                    min-width: 437px;
+                    max-width: 760px;
+                    ">
+                <svg viewBox="0 0 24 24" style="padding-bottom: 12px; height: 3.5rem; align-self: flex-start;" aria-hidden="true"
                     class="r-jwli3a r-4qtqp9 r-yyyyoo r-rxcuwo r-1777fci r-m327ed r-dnmrzs r-494qqr r-bnwqim r-1plcrui r-lrvibr">
 
                     <g>
@@ -57,28 +64,37 @@
                 </svg>
                 <h1 style="
                         font-size: 64px; 
-                        font-weight:900;
-                        margin-top: 40px;
+                        font-weight:900;   
+                        font-family: TwitterChirpExtendedHeavy, Verdana, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+                        margin-bottom: 48px;
+                        margin-top: 48px;
                         ">
 
-                    Lo que está pasando ahora
+                    Happening now
                 </h1>
                 <h2 style="
-                            font-size: 32px; 
+                            font-size: 31px; 
                             margin-top: 50px;
-                            font-weight:900;
-                            
+                            font-weight:700;
+                            margin-bottom: 32px;
+                            font-family: TwitterChirpExtendedHeavy, Verdana, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;   
                             ">
-                    Únete a twitter hoy mismo.
+                    Join Twitter today
                 </h2>
                 <div style="
                         font-weight: 900 !important; 
                         margin: top 30px; ">
                     <button type="button" class="btn btn-light" style="
                             width: 300px; 
-                            font-weight:600;
-                            border-radius: 30px;
-                            margin-top: 30px;
+                            max-width: 400px;
+                            min-width:min-content;
+                            height: 40px;
+                            font-size:14px;
+                            font-weight:400;
+                            letter-spacing: 0.25px;
+                            border-radius: 20px;
+                            margin-top: 10px;
+                            background-color: #fff;
                             ">
 
 
@@ -100,13 +116,19 @@
                                 <path fill="none" d="M0 0h48v48H0z"></path>
                             </g>
                         </svg>
-                        Registrarse con Google
+                        Sign up with Google
                     </button>
                     <button type="button" class="btn btn-light btn-block" style="
-                            width: 300px;
+                            width: 300px; 
+                            max-width: 400px;
+                            min-width:min-content;
+                            height: 40px;
+                            font-size:15px;
+                            font-weight:700;
+                            letter-spacing: 0.25px;
+                            border-radius: 20px;
                             margin-top: 10px;
-                            font-weight:600;
-                            border-radius: 30px;
+                            background-color: #fff;
                         ">
                         <svg viewBox="0 0 24 24" aria-hidden="true"
                             class="r-4qtqp9 r-yyyyoo r-z80fyv r-1d4mawv r-dnmrzs r-bnwqim r-1plcrui r-lrvibr r-19wmn03"
@@ -117,7 +139,7 @@
                                 </path>
                             </g>
                         </svg>
-                        Registrarse con Apple
+                        Sign up with Apple
                     </button>
                     <div style="display: flex; align-items:center;">
                         <div style="
@@ -131,7 +153,7 @@
                                 margin-right: 5px;
                                 font-weight: 400;
                                 ">
-                            o
+                            or
                         </div>
                         <div style="
                                 height: 0.5px;
@@ -150,37 +172,29 @@
                             border: initial;  
                         ">
 
-                        Regístrate con tu número telefónico
+                        Sign up with phone or email
                     </button>
                     <div style="
                         font-weight: 200; 
                         color: gray;
                         font-size: 12px;
                         margin-top: 5px;
+                        width:300px;
                         ">
-                        Al registrarte, aceptas los 
-                        <a 
-                            href="#"
-                            style="color:(29, 155, 240)">Términos de servicio
-                        </a> 
-                        y la 
-                        <a 
-                            href="#"
-                            style="color:(29, 155, 240)">
+                        By signing up, you agree to the
+                        <a href="#" style="color:(29, 155, 240)">Terms of Service
                         </a>
-                        <a 
-                            href="#"
-                            style="color: (29, 155, 240);">Política de privacidad</a>, incluída la
-                        política de <a href="#">Uso de Cookies.</a>  
+                        and
+                        <a href="#" style="color:(29, 155, 240)">
+                        </a>
+                        <a href="#" style="color: (29, 155, 240);"> Privacy Policy</a>, including <a href="#">Cookie
+                            Use.</a>
                     </div>
                     <br>
                     <br>
                     <br>
-                    ¿Ya tienes una cuenta?
-                    <button 
-                        type="button"
-                        class="btn btn-outline-light"
-                        style="
+                    ¿Already have an account?
+                    <button type="button" class="btn btn-outline-light" style="
                             cursor:pointer;  
                             box-sizing: border-box;
                             color: rgb(29, 155, 240);
@@ -194,32 +208,47 @@
                             display:block;
                            
                          
-                        "
-                        >Iniciar sesión</button>
+                        ">Sign in</button>
                 </div>
-                
+
             </div>
         </div>
     </div>
-    <div style=" height:50%; display:flex; flex-wrap:wrap; background-color: black;">
-        Información
-        Centro de Ayuda
-        Condiciones de Servicio
-        Política de Privacidad
-        Política de cookies
-        Accesibilidad
-        Información de anuncios
-        Blog
-        Estado
-        Empleos
-        Recursos para marcas
-        Publicidad
-        Marketing
-        Twitter para empresas
-        Desarrolladores
-        Guía
-        Configuración
-        © 2022 Twitter, Inc.
+    <div style=" 
+            height: 100; 
+            display:flex; 
+            font-size:13px; 
+            font-weight:400;
+            flex-wrap:wrap; 
+            background-color: black; 
+            padding-top: 12px; 
+            padding-bottom: 12px;
+            padding-left:16px;
+            padding-right: 16px;
+            justify-content:center;
+            flex-direction :row;
+            line-height: 16px;
+            
+
+            ">
+        <a href="#" style="color:gray !important; margin-right: 16px; margin-bottom: 4px; margin-top: 4px;">About</a>
+        <a href="#" style="color:gray !important; margin-right: 16px;margin-bottom: 4px; margin-top: 4px;">Help Center</a>
+        <a href="#" style="color:gray !important; margin-right: 16px;margin-bottom: 4px; margin-top: 4px;">Terms of Service</a>
+        <a href="#" style="color:gray !important; margin-right: 16px;margin-bottom: 4px; margin-top: 4px;">Privacy Policy</a>
+        <a href="#" style="color:gray !important; margin-right: 16px;margin-bottom: 4px; margin-top: 4px;">Cookie Policy</a>
+        <a href="#" style="color:gray !important; margin-right: 16px;margin-bottom: 4px; margin-top: 4px;">Accessibility</a>
+        <a href="#" style="color:gray !important; margin-right: 16px;margin-bottom: 4px; margin-top: 4px;">Ads info</a>
+        <a href="#" style="color:gray !important; margin-right: 16px;margin-bottom: 4px; margin-top: 4px;">Blog</a>
+        <a href="#" style="color:gray !important; margin-right: 16px;margin-bottom: 4px; margin-top: 4px;">Status</a>
+        <a href="#" style="color:gray !important; margin-right: 16px;margin-bottom: 4px; margin-top: 4px;">Careers</a>
+        <a href="#" style="color:gray !important; margin-right: 16px;margin-bottom: 4px; margin-top: 4px;">Brand Resources</a>
+        <a href="#" style="color:gray !important; margin-right: 16px;margin-bottom: 4px; margin-top: 4px;">Advertising</a>
+        <a href="#" style="color:gray !important; margin-right: 16px;margin-bottom: 4px; margin-top: 4px;">Marketing</a>
+        <a href="#" style="color:gray !important; margin-right: 16px;margin-bottom: 4px; margin-top: 4px;">Twitter for Business</a>
+        <a href="#" style="color:gray !important; margin-right: 16px;margin-bottom: 4px; margin-top: 4px;"> Developers</a>
+        <a href="#" style="color:gray !important; margin-right: 16px;margin-bottom: 4px; margin-top: 4px;">Directory</a>
+        <a href="#" style="color:gray !important; margin-right: 16px;margin-bottom: 4px; margin-top: 4px;">Settings</a>
+        <a href="#" style="color:gray !important; margin-right: 16px;margin-bottom: 4px; margin-top: 4px;"> © 2022 Twitter, Inc.</a>
     </div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
